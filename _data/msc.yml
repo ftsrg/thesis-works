@@ -3,3 +3,11 @@ thesis_works:
     title: Superscalable Modeling
     filename: szarnyas-gabor-superscalable-modeling
     advisors: Dr. Ráth István, Izsó Benedek, Dr. Varró Dániel
+  - author: Darvas Dániel
+    title: Incremental extension of the saturation algorithm-based bounded model checking of Petri nets
+    filename: darvas-daniel-incremental-extension-of-the-saturation-algorithm-based-bounded-model-checking-of-petri-nets
+    advisors: dr. Bartha Tamás, Vörös András
+  - author: Molnár Vince
+    title: Advanced Saturation-based Model Checking
+    filename: molnar-vince-advanced-saturation-based-model-checking
+    advisors: dr. Bartha Tamás, Vörös András
