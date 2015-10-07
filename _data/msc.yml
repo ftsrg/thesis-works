@@ -11,3 +11,7 @@ thesis_works:
     title: Advanced Saturation-based Model Checking
     filename: molnar-vince-advanced-saturation-based-model-checking
     advisors: dr. Bartha Tamás, Vörös András
+  - author: Semeráth Oszkár
+    title: Consistency Analysis of Domain-Specific Languages
+    filename: semerath-oszkar-consistency-analysis-of-domain-specific-languages
+    advisors: Szatmári Zoltán, Dr. Horváth Ákos, Dr. Varró Dániel
