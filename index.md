@@ -3,6 +3,8 @@ layout: page
 tagline: Fault Tolerant Systems Research Group
 ---
 
+Some of the best thesis works written in the Fault Tolerant Systems Research Group. Archived for easier access.
+
 # Bachelor's thesis works
 
 {% for file in site.static_files %}{% if file.path contains "/bsc/" && file.extname == ".pdf" %}
