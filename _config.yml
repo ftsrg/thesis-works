@@ -15,4 +15,4 @@ gems: ['jekyll/scholar']
 scholar:
     repository: pdfs
     style: chicago-fullnote-bibliography
-    bibliography_template: "{{reference}} <a href=\"{{link}}\">PDF</a>"
+    bibliography_template: bib
