@@ -7,10 +7,8 @@ Some of the best thesis works written in the Fault Tolerant Systems Research Gro
 
 # Bachelor's thesis works
 
-{% for file in site.static_files %}{% if file.path contains "/bsc/" && file.extname == ".pdf" %}
-* [{{ file.path }}]({{ site.baseurl }}{{ file.path }}){% endif %}{% endfor %}
+{% bibliography -f bsc %}
 
 # Master's thesis works
 
-{% for file in site.static_files %}{% if file.path contains "/msc/" && file.extname == ".pdf" %}
-* [{{ file.path }}]({{ site.baseurl }}{{ file.path }}){% endif %}{% endfor %}
+{% bibliography -f msc %}
