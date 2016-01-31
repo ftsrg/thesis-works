@@ -1,3 +1,3 @@
 ---
 ---
-{{ reference }} <a href="{{link}}">PDF</a> | 
+{{ reference }} <a href="{{link}}">[pdf]</a>

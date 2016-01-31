@@ -17,3 +17,4 @@ scholar:
     style: chicago-fullnote-bibliography
     bibliography_template: bib
     sort_by: author
+    details_link: "[bib]"
