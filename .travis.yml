@@ -4,7 +4,7 @@ env:
   - secure: "MZiHs62fzT8YbH26DeUgHN4iO0w7gC77e2QmmMsDiy/sT+KYv7w8YzLpb1ZxCJirelRD0LGWfc6lTQmS0SoMub0iROq4ENJgWafmiDQySv6gfrUVg34OcNmfjwWOic0mzUTWXMqRi5fL0UOLcMDxa0eU/FelrXwHz3tG9ZfBNfLy/a18Xx3QZvcUANYrRiiLF66DUA91bn77XZr7GjWIbnCEe+MD5F1mQGRi8s3DJEWTAoNvz3z/TgcYchgqxxPjBX46H7J9IvN6j4H6JQkHh2TlbQYMjx7rqEd3wBYGGfx9iorZ7Fl+eSkVWec+BsnVQG/01IiSQSr0jXWmvwjhTuGVUSua+tX2JxhLXtfsBf2MzJZjScmEYDUMRV7yUZ72sgcQrsbcAXsab6bmFlwWfxTQMtmQBlgf2iV1p/G/NEphUNCGBqS7YAZ9GbwEuAidRfCFEiY3iJWnd9VWFqkyOh1u1LpjAzxLAK9NiByKZf47LgXKGVBF3Wp6NaIvyToMzd8jZGW92PYfrzCgFPtudzOf26rZ5rCr6ZNVchtF/A2Yxy3UCZMTZRDEN0Ijr/t2HDJ7qRXFIW0eF1y4sjNfPiS0UL5F+hSzKZkY2g2epvwP6poVPJEgnRqVCMjM5ITxno5uGpfgxJRgVwN2zJs2Y8dv/z+Tv2TSAAxP7/Ws3Wg="
 branches:
   only:
-    - sources
+    - source
 script:
 - jekyll build
 - ./deploy.sh
