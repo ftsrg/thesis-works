@@ -7,8 +7,8 @@ Some of the best thesis works written in the Fault Tolerant Systems Research Gro
 
 # Bachelor's thesis works
 
-{% bibliography -f bsc %}
+{% bibliography --query @*[type=Bachelor{\textquoteright}s thesis] %}
 
 # Master's thesis works
 
-{% bibliography -f msc %}
+{% bibliography --query @*[type=Master{\textquoteright}s thesis] %}

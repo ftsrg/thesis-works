@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ page.reference }} <a href="{{link}}">PDF</a>
+        <pre>{{ page.entry.bibtex }}</pre>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
