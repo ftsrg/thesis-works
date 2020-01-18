@@ -12,3 +12,7 @@ Some of the best thesis works written in the Fault Tolerant Systems Research Gro
 # Master's thesis works
 
 {% bibliography --query @*[type=Master{\textquoteright}s thesis] %}
+
+# PhD thesis works
+
+{% bibliography --query @*[type=PhD thesis] %}
