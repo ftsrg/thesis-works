@@ -13,6 +13,7 @@ jobs:
           bundle install
           bundle exec jekyll build
           mkdir build
+          ls _site/
           cp -r _site/* build/
       - name: Install SSH Client 🔑
         uses: webfactory/ssh-agent@v0.4.1
