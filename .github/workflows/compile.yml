@@ -12,6 +12,8 @@ jobs:
           sudo gem install bundler:1.16.1
           bundle install
           bundle exec jekyll build
+          mkdir build
+          cp -r _site/* build/
       - name: Install SSH Client 🔑
         uses: webfactory/ssh-agent@v0.4.1
         with:
