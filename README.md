@@ -1,8 +1,8 @@
-# FTSRG thesis works
+# ftsrg thesis works
   
-[![Build Status](https://travis-ci.org/FTSRG/thesis-works.svg?branch=source)](https://travis-ci.org/FTSRG/thesis-works)
+[![Build Jekyll site and deploy](https://github.com/ftsrg/thesis-works/actions/workflows/compile.yml/badge.svg)](https://github.com/ftsrg/thesis-works/actions/workflows/compile.yml)
 
-Some of the best thesis works written in the Fault Tolerant Systems Research Group: <https://ftsrg.mit.bme.hu/thesis-works/>
+Some of the best thesis works written in the Critical Systems Research Group: <https://ftsrg.mit.bme.hu/thesis-works/>
 
 ## Adding a work
 
